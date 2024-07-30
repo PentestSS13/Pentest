@@ -37,7 +37,9 @@
 	filling_color = "#FF1493"
 	tastes = list("watermelon" = 1)
 	foodtype = FRUIT
+	/*food_flags = FOOD_FINGER_FOOD*/
 	juice_results = list(/datum/reagent/consumable/watermelonjuice = 5)
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/reagent_containers/food/snacks/candy_corn
 	name = "candy corn"
@@ -47,6 +49,8 @@
 	filling_color = "#FF8C00"
 	tastes = list("candy corn" = 1)
 	foodtype = JUNKFOOD | SUGAR
+	/*food_flags = FOOD_FINGER_FOOD*/
+	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/reagent_containers/food/snacks/candy_corn/prison
 	name = "desiccated candy corn"
@@ -64,6 +68,8 @@
 	filling_color = "#A0522D"
 	tastes = list("chocolate" = 1)
 	foodtype = JUNKFOOD | SUGAR
+	/*food_flags = FOOD_FINGER_FOOD*/
+	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/reagent_containers/food/snacks/hugemushroomslice
 	name = "huge mushroom slice"
@@ -192,6 +198,8 @@
 	list_reagents = list(/datum/reagent/toxin/minttoxin = 2)
 	filling_color = "#800000"
 	foodtype = TOXIC | SUGAR
+	/*food_flags = FOOD_FINGER_FOOD*/
+	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/reagent_containers/food/snacks/eggwrap
 	name = "egg wrap"
@@ -229,6 +237,8 @@
 	filling_color = "#00800"
 	tastes = list("cobwebs" = 1, "sugar" = 2)
 	foodtype = JUNKFOOD | SUGAR
+	/*food_flags = FOOD_FINGER_FOOD*/
+	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/reagent_containers/food/snacks/chococoin
 	name = "chocolate coin"
@@ -239,6 +249,8 @@
 	filling_color = "#A0522D"
 	tastes = list("chocolate" = 1)
 	foodtype = JUNKFOOD | SUGAR
+	/*food_flags = FOOD_FINGER_FOOD*/
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/reagent_containers/food/snacks/fudgedice
 	name = "fudge dice"
@@ -250,6 +262,8 @@
 	trash = /obj/item/dice/fudge
 	tastes = list("fudge" = 1)
 	foodtype = JUNKFOOD | SUGAR
+	/*food_flags = FOOD_FINGER_FOOD*/
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/reagent_containers/food/snacks/chocoorange
 	name = "chocolate orange"
@@ -260,6 +274,8 @@
 	filling_color = "#A0522D"
 	tastes = list("chocolate" = 3, "oranges" = 1)
 	foodtype = JUNKFOOD | SUGAR
+	/*food_flags = FOOD_FINGER_FOOD*/
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/reagent_containers/food/snacks/eggplantparm
 	name = "eggplant parmigiana"
@@ -404,6 +420,8 @@
 	filling_color = "#F2CE91"
 	tastes = list("oats" = 3, "nuts" = 2, "honey" = 1)
 	foodtype = GRAIN | SUGAR
+	/*food_flags = FOOD_FINGER_FOOD*/
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/reagent_containers/food/snacks/stuffedlegion
 	name = "stuffed legion"
@@ -484,6 +502,8 @@
 	next_succ = 0
 	tastes = list("candy" = 1)
 	foodtype = JUNKFOOD | SUGAR
+	/*food_flags = FOOD_FINGER_FOOD*/
+	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/reagent_containers/food/snacks/chewable/lollipop/Initialize()
 	. = ..()
@@ -575,6 +595,8 @@
 	list_reagents = list(/datum/reagent/consumable/sugar = 5, /datum/reagent/medicine/bicaridine = 2, /datum/reagent/medicine/kelotane = 2)	//Kek
 	tastes = list("candy")
 	foodtype = JUNKFOOD
+	/*food_flags = FOOD_FINGER_FOOD*/
+	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/reagent_containers/food/snacks/gumball/Initialize()
 	. = ..()
@@ -655,6 +677,7 @@
 	desc = "delicious, golden, fatty goodness on a stick."
 	icon_state = "butteronastick"
 	trash = /obj/item/stack/rods
+	/*food_flags = FOOD_FINGER_FOOD*/
 
 /obj/item/reagent_containers/food/snacks/onionrings
 	name = "onion rings"
@@ -665,6 +688,7 @@
 	gender = PLURAL
 	tastes = list("batter" = 3, "onion" = 1)
 	foodtype = VEGETABLES
+	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/reagent_containers/food/snacks/pineappleslice
 	name = "pineapple slice"
@@ -674,6 +698,7 @@
 	juice_results = list(/datum/reagent/consumable/pineapplejuice = 3)
 	tastes = list("pineapple" = 1)
 	foodtype = FRUIT | PINEAPPLE
+	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/reagent_containers/food/snacks/tinychocolate
 	name = "chocolate"
