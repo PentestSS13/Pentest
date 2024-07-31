@@ -226,6 +226,8 @@
 	icon_state = "wood_wall-255"
 	smoothing_flags = SMOOTH_BITMASK | SMOOTH_DIAGONAL_CORNERS | SMOOTH_CONNECTORS
 
+/turf/closed/wall/mineral/wood/nonmetal/icecropolis
+	baseturfs = /turf/open/indestructible/necropolis/air
 
 /turf/closed/wall/mineral/wood/attackby(obj/item/W, mob/user)
 	if(W.get_sharpness() && W.force)
@@ -263,6 +265,9 @@
 /turf/closed/wall/mineral/iron/yesdiag
 	icon_state = "iron_wall-255"
 	smoothing_flags = SMOOTH_BITMASK | SMOOTH_DIAGONAL_CORNERS
+
+/turf/closed/wall/mineral/iron/icecropolis
+	baseturfs = /turf/open/indestructible/necropolis/air
 
 /turf/closed/wall/mineral/snow
 	name = "packed snow wall"
