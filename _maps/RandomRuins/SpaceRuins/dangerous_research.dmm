@@ -333,7 +333,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/mob_spawn/human/scientist,
 /obj/effect/decal/cleanable/blood/bubblegum,
-/obj/item/switchblade,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav)
 "ln" = (
