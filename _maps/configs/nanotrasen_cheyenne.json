@@ -1,0 +1,81 @@
+{
+	"$schema": "https://raw.githubusercontent.com/constellado/Pentest/master/_maps/ship_config_schema.json",
+	"prefix": "NTSV",
+	"namelists": [
+		"NANOTRASEN",
+		"MYTHOLOGICAL",
+		"WEAPONS"
+	],
+	"map_name": "Cheyenne Class Flotilla",
+	"map_short_name": "Cheyenne-class",
+	"map_path": "_maps/shuttles/nanotrasen/nanotrasen_cheyenne.dmm",
+	"map_id": "nanotrasen_cheyenne",
+	"description": "The Cheyenne-Class is a state-of-the-art Flotilla style vessel, designed and constructed by NanoTrasen to serve as a central hub for frontier operations. Built with versatility and durability in mind, the Frontier Voyager combines the functionality of a large, stationary space station with the mobility of a capital-class starship. Its vast interior is equipped with all the necessary facilities to support a variety of operations, from scientific research and mineral extraction to security and medical response.",
+	"limit": 1,
+	"tags": [
+		"RP Focus",
+		"Generalist",
+		"Cargo"
+	],
+	"job_slots": {
+		"Flotilla Commander": {
+			"outfit": "/datum/outfit/job/nanotrasen/captain/centcom",
+			"officer": true,
+			"slots": 1
+		},
+		"Executive Officer": {
+			"outfit": "/datum/outfit/job/nanotrasen/hop",
+			"officer": true,
+			"slots": 1
+		},
+		"Head of Security": {
+			"outfit": "/datum/outfit/job/nanotrasen/hos",
+			"officer": true,
+			"slots": 1
+		},
+		"Chief Engineer":{
+			"outfit": "/datum/outfit/job/nanotrasen/ce",
+			"officer": true,
+			"slots": 1
+		},
+		"Chief Medical Officer":{
+			"outfit": "/datum/outfit/job/cmo",
+			"officer": true,
+			"slots": 1
+		},
+		"Quartermaster": {
+			"outfit": "/datum/outfit/job/nanotrasen/quartermaster",
+			"slots": 1
+		},
+		"Security Officer": {
+			"outfit": "/datum/outfit/job/nanotrasen/security",
+			"slots": 1
+		},
+		"Medical Doctor":{
+			"outfit": "/datum/outfit/job/nanotrasen/doctor",
+			"slots": 1
+		},
+		"Ship Engineer": {
+			"outfit": "/datum/outfit/job/nanotrasen/engineer",
+			"slots": 1
+		},
+				"Atmospheric Technician": {
+			"outfit": "/datum/outfit/job/nanotrasen/atmos",
+			"slots": 1
+		},
+		"Shaft Miner": {
+			"outfit": "/datum/outfit/job/nanotrasen/miner",
+			"slots": 1
+		},
+		"Cargo Technician": {
+			"outfit": "/datum/outfit/job/cargo_tech",
+			"slots": 1
+		},
+		"Bartender": {
+			"outfit": "/datum/outfit/job/bartender",
+			"slots": 1
+		}
+
+	},
+	"enabled": true
+}
