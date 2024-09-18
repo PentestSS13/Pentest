@@ -1,0 +1,855 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"af" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/porta_turret/ship/weak{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"bx" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4;
+	name = "tactical chair"
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 10
+	},
+/obj/machinery/power/apc/auto_name/directional/south{
+	locked = 0
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/open/floor/carpet/black,
+/area/ship/bridge)
+"bB" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"bW" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-10"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/ship/bridge)
+"cR" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"df" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/window/brigdoor/southright{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/yellow/corner{
+	dir = 8
+	},
+/obj/machinery/light/floor,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"dO" = (
+/obj/machinery/suit_storage_unit/security,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/light/end,
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"ei" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/machinery/light/floor,
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/red{
+	dir = 5
+	},
+/obj/machinery/button/door{
+	pixel_x = -9;
+	dir = 8;
+	pixel_y = 8;
+	id = "malp_door";
+	name = "MALP Hander Doors"
+	},
+/obj/machinery/button/shieldwallgen{
+	dir = 8;
+	name = "MALP Holofield Switch";
+	pixel_x = -10;
+	pixel_y = 0;
+	id = "malp_holo"
+	},
+/obj/machinery/light/directional/east,
+/obj/machinery/turretid{
+	pixel_y = 25;
+	name = "MALP Turret Control Panel";
+	locked = 0;
+	lethal = 1
+	},
+/obj/item/radio/intercom/wideband/table{
+	dir = 4;
+	pixel_x = 6;
+	pixel_y = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"fh" = (
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"fC" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/machinery/door/window/brigdoor/northleft{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/yellow/corner{
+	dir = 1
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"fN" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/turf_decal/siding/blue{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/carpet/black,
+/area/ship/bridge)
+"gC" = (
+/obj/machinery/light/floor,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"gX" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/yellow{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"ib" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"kT" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/ship/bridge)
+"mH" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"mQ" = (
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"pi" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/light/directional/west,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable{
+	icon_state = "0-6"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"pu" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"pY" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 8;
+	name = "tactical chair"
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 5
+	},
+/turf/open/floor/carpet/black,
+/area/ship/bridge)
+"rl" = (
+/obj/machinery/atmospherics/components/binary/pump/layer2,
+/obj/machinery/atmospherics/components/binary/pump/layer4{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"tV" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8;
+	name = "tactical chair"
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 6
+	},
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/carpet/black,
+/area/ship/bridge)
+"uj" = (
+/obj/machinery/light/floor,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 9
+	},
+/obj/structure/barricade/sandbags,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"uk" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/yellow{
+	dir = 8
+	},
+/obj/item/storage/box/emptysandbags,
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"uO" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/siding/red{
+	dir = 9
+	},
+/obj/machinery/turretid{
+	pixel_y = 25;
+	name = "MALP Turret Control Panel";
+	locked = 0;
+	lethal = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"wA" = (
+/obj/structure/cable/yellow,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/porta_turret/ship/weak{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"wC" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile/shuttle,
+/obj/machinery/door/poddoor/shutters{
+	id = "malp_window";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"wX" = (
+/obj/effect/turf_decal/siding/red{
+	dir = 4
+	},
+/obj/machinery/computer/crew{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"xb" = (
+/obj/machinery/suit_storage_unit/security,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 5
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"xg" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/porta_turret/ship/weak{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"xn" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/turf_decal/siding/thinplating/light,
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"xI" = (
+/obj/docking_port/mobile{
+	can_move_docking_ports = 1;
+	preferred_direction = 4;
+	port_direction = 8;
+	dir = 2;
+	name = "malp dock"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "malp_door"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 2
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"yw" = (
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"zR" = (
+/obj/structure/window/reinforced/fulltile/shuttle,
+/obj/structure/cable/yellow{
+	icon_state = "1-6"
+	},
+/obj/structure/grille,
+/obj/machinery/door/poddoor/shutters{
+	id = "malp_window"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"AB" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"Bc" = (
+/obj/structure/window/reinforced,
+/obj/effect/turf_decal/siding/yellow{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "4-9"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"Be" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-10"
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"Bi" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/machinery/light/floor,
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/red{
+	dir = 6
+	},
+/obj/item/radio/intercom/table{
+	dir = 4;
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/machinery/button/door{
+	pixel_x = -9;
+	dir = 8;
+	pixel_y = 8;
+	id = "malp_engine";
+	name = "MALP Engine"
+	},
+/obj/machinery/button/door{
+	pixel_x = -9;
+	dir = 8;
+	pixel_y = -3;
+	id = "malp_window";
+	name = "MALP Windows"
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"Cw" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/bridge)
+"Dw" = (
+/obj/structure/window/reinforced/fulltile/shuttle,
+/obj/structure/cable/yellow{
+	icon_state = "2-5"
+	},
+/obj/structure/grille,
+/obj/machinery/door/poddoor/shutters{
+	id = "malp_window"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"Ez" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/yellow{
+	dir = 9
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/smes/engineering,
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"Fe" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/airalarm/directional/south,
+/obj/effect/turf_decal/siding/red{
+	dir = 10
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"Gd" = (
+/obj/structure/window/reinforced/fulltile/shuttle,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/grille,
+/obj/machinery/door/poddoor/shutters{
+	id = "malp_window"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"Iq" = (
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 4
+	},
+/obj/structure/closet/crate,
+/obj/machinery/door/window{
+	dir = 2
+	},
+/obj/effect/turf_decal/siding/yellow/end{
+	dir = 1
+	},
+/obj/structure/crate_shelf,
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"IK" = (
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 4
+	},
+/obj/structure/closet/crate/medical,
+/obj/machinery/door/window{
+	dir = 1;
+	name = "Medical Supplies"
+	},
+/obj/effect/turf_decal/siding/yellow/end,
+/obj/structure/crate_shelf,
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"Jw" = (
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "malp_engine";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"LO" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4;
+	name = "tactical chair"
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 9
+	},
+/turf/open/floor/carpet/black,
+/area/ship/bridge)
+"MD" = (
+/obj/machinery/computer/helm{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/red{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/bridge)
+"MG" = (
+/turf/template_noop,
+/area/template_noop)
+"MJ" = (
+/obj/structure/window/reinforced,
+/obj/machinery/light/directional/west,
+/obj/structure/cable/yellow,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/power/port_gen/pacman,
+/obj/item/stack/sheet/mineral/plasma/ten,
+/turf/open/floor/plating,
+/area/ship/bridge)
+"NY" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 2
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "malp_door"
+	},
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 8;
+	id = "malp_holo"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"Oi" = (
+/obj/structure/railing,
+/obj/structure/railing,
+/obj/machinery/light/floor,
+/obj/effect/turf_decal/siding/thinplating/light,
+/obj/structure/table/reinforced,
+/obj/machinery/recharger{
+	pixel_x = -6
+	},
+/obj/machinery/recharger{
+	pixel_x = 5
+	},
+/obj/item/screwdriver,
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"Pv" = (
+/obj/structure/sign/number/random,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/bridge)
+"QK" = (
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "malp_door"
+	},
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 4;
+	id = "malp_holo"
+	},
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -23
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 2
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"RF" = (
+/obj/structure/railing,
+/obj/machinery/light/floor,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "5-8"
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"Tk" = (
+/obj/structure/cable/yellow,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/porta_turret/ship/weak{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"Vl" = (
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"Xc" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/light/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/patterned/brushed,
+/area/ship/bridge)
+"Xj" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/blue,
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_y = -18
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/carpet/black,
+/area/ship/bridge)
+"Zk" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-9"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/closet/secure_closet/security/sec,
+/turf/open/floor/plating,
+/area/ship/bridge)
+
+(1,1,1) = {"
+MG
+kT
+pu
+Cw
+Cw
+pu
+kT
+MG
+"}
+(2,1,1) = {"
+xg
+zR
+Jw
+pi
+MJ
+Jw
+Dw
+Tk
+"}
+(3,1,1) = {"
+Cw
+Cw
+Zk
+Ez
+Bc
+bW
+Cw
+Cw
+"}
+(4,1,1) = {"
+Cw
+Iq
+uk
+fC
+df
+gX
+IK
+Cw
+"}
+(5,1,1) = {"
+QK
+uj
+Vl
+mQ
+RF
+LO
+bx
+Cw
+"}
+(6,1,1) = {"
+xI
+rl
+AB
+Be
+xn
+fN
+Xj
+Pv
+"}
+(7,1,1) = {"
+NY
+gC
+ib
+yw
+Oi
+pY
+tV
+Pv
+"}
+(8,1,1) = {"
+Cw
+xb
+cR
+fh
+Xc
+bB
+dO
+Pv
+"}
+(9,1,1) = {"
+Cw
+Cw
+uO
+mH
+mH
+Fe
+Cw
+Cw
+"}
+(10,1,1) = {"
+af
+Gd
+ei
+MD
+wX
+Bi
+Gd
+wA
+"}
+(11,1,1) = {"
+MG
+kT
+Cw
+wC
+wC
+Cw
+kT
+MG
+"}

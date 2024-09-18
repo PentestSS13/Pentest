@@ -406,3 +406,14 @@
 	file_name = "frontiersmen_brawler"
 	name = "Brawler-class Dropship"
 	prefix = "SV"
+
+/datum/map_template/shuttle/subshuttles/sierra
+	file_name = "nanotrasen_sierra"
+	name = "Sierra-class Recovery Shuttle"
+	prefix = "NTSC"
+
+/datum/map_template/shuttle/subshuttles/malp
+	file_name = "nanotrasen_malp"
+	name = "MALP-class Hostile Exploration Shuttle"
+	prefix = "NTSC"
+
