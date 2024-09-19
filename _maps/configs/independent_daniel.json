@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/constellado/Pentest/master/_maps/ship_config_schema.json",
+	"map_name": "Daniel-class Exploration Vessel",
+	"prefix": "SV",
+	"namelists": ["NATURAL"],
+	"map_short_name": "Daniel-class",
+	"map_path": "_maps/shuttles/independent/independent_daniel.dmm",
+	"description": "The Daniel-Class is daniels house, yea its just his house (It would be hilarious if you spawned this in while daniel was already in one).",
+	"tags": [
+		"RP Focus"
+	],
+	"starting_funds": 6000,
+	"limit": 1,
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/independent/captain",
+			"officer": true,
+			"slots": 2
+		},
+		"Mechanic": {
+			"outfit": "/datum/outfit/job/independent/engineer",
+			"slots": 1
+		},
+		"Assistant": {
+			"outfit": "/datum/outfit/job/independent/assistant",
+			"slots": 2
+		}
+	},
+	"enabled": true
+}
