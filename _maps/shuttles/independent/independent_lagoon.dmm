@@ -4987,13 +4987,13 @@
 /turf/open/floor/wood,
 /area/ship/bridge)
 "HA" = (
-/obj/structure/table/reinforced,
 /obj/machinery/recharger,
 /obj/item/paper{
 	default_raw_text = "Reminder that passengers are NOT permitted to carry weapons on board.";
 	pixel_x = 4
 	},
 /obj/machinery/computer/helm/viewscreen/directional/east,
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel/dark,
 /area/ship/security)
 "HE" = (
