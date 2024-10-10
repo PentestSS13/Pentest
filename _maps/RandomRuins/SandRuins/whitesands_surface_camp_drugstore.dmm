@@ -33,7 +33,7 @@
 "f" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/food/snacks/cornchips,
-/obj/item/reagent_containers/food/snacks/butterdog,
+/obj/item/food/butterdog,
 /obj/item/reagent_containers/food/snacks/candy,
 /obj/item/reagent_containers/food/snacks/canned/peaches,
 /obj/item/reagent_containers/food/drinks/bottle/sarsaparilla,

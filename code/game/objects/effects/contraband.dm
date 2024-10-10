@@ -877,8 +877,8 @@
 
 /obj/structure/sign/poster/terragov/mars
 	name = "Mars"
-	desc = "Mars, the fourth planet in the Sol system. While evidence suggests that Venus and Mars may have once had life, Terra was the only one that kept it. This poster in particular is trying to attract tourists to Mars, listing attractions like skiing resorts and ancient robot exhibits."
-	icon_state = "poster-solgov-ares"
+	desc = "Mars, fourth planet in the Sol system. While evidence suggests that Venus and Mars may have once had life, Terra was the only one that kept it. This poster in particular is trying to attract tourists to Mars, listing attractions like skiing resorts and ancient robot exhibits."
+	icon_state = "poster-solgov-mars"
 
 /obj/structure/sign/poster/terragov/luna
 	name = "Luna"
