@@ -1,0 +1,53 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Basilisk-Class Assault Cruiser",
+	"prefix": "ISV",
+	"namelists": [
+		"GENERAL",
+		"SPACE",
+		"NATURAL"
+	],
+	"map_short_name": "Basilisk-Class",
+	"description": "Following the success of the Rigger and Raleigh classes comes the next entry to K-FP's fleet: The Basilisk-Class heavy assault cruiser. Seeking to capitalize on the growing population of independent mercenaries the Basilisk boasts everything an independent gun-for-hire might need.",
+	"tags": [
+		"Mercenary",
+		"Medical",
+		"Explorer"
+	],
+	"map_path": "_maps/shuttles/independent/independent_basilisk.dmm",
+	"map_id": "independent_victory",
+	"limit": 1,
+	"job_slots": {
+		"Commanding Officer": {
+			"outfit": "/datum/outfit/job/independent/captain/cheap",
+			"officer": true,
+			"slots": 1
+		},
+		"Executive Officer": {
+			"outfit": "/datum/outfit/job/independent/hop",
+			"officer": true,
+			"slots": 1
+		},
+		"Medical Staff Officer": {
+			"outfit": "/datum/outfit/job/independent/doctor",
+			"slots": 1
+		},
+		"Engineering Staff Officer": {
+			"outfit": "/datum/outfit/job/independent/engineer",
+			"slots": 1
+		},
+		"APLU Operator": {
+			"outfit": "/datum/outfit/job/nanotrasen/security/mech_pilot",
+			"slots": 1
+		},
+		"Field Agent": {
+			"outfit": "/datum/outfit/job/independent/security",
+			"slots": 4
+		},
+		"Passenger": {
+			"outfit": "/datum/outfit/job/independent/assistant",
+			"slots": 2
+		}
+	},
+	"enabled": true
+}
